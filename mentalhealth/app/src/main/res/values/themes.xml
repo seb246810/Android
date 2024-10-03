@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Mentalhealth" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="actionOverflowButtonStyle">@style/newimage</item>
+
+
+    </style>
+
+    <style name = "newimage" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:src"> @drawable/overflowmenusmall </item>
+    </style>
+
+    <style name="toolbariconcolor" parent="ThemeOverlay.MaterialComponents.Toolbar.Primary">
+    <item name = "android:textColorSecondary">@color/black</item>
+
+    </style>
+
+
+    <style name="Theme.Mentalhealth" parent="Base.Theme.Mentalhealth" />
+</resources>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">mentalhealth</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_diaryentry">Diaryentry</string>
+    <string name="title_activity_viewlocation">Viewlocation</string>"
+
+    <string-array name="moodtype">
+        <item>Unhappy</item>
+        <item>Unsure</item>
+        <item>Happy</item>
+    </string-array>
+
+    <string-array name="moodpage">
+        <item>moodselect</item>
+        <item>viewlocations</item>
+    </string-array>
+</resources>

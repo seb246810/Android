@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Clear Description"
+        android:id="@+id/clearDescription"/>
+
+
+    <item android:title="Clear Title"
+        android:id="@+id/cleartitle"/>
+
+    <item android:title ="Clear Date"
+        android:id="@+id/cleardate"/>
+
+
+
+
+
+
+
+
+</menu>

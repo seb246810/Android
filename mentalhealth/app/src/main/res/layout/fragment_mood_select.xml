@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MoodSelect">
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <com.google.android.material.slider.Slider
+
+        android:id="@+id/continuousRangeSlider"
+
+        android:layout_width="334dp"
+        android:layout_height="702dp"
+
+
+        android:stepSize="1"
+
+        android:valueFrom="0.0"
+        android:valueTo="10"
+        app:haloColor="#1D1D1D"
+        app:labelBehavior="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.712"
+        app:thumbColor="#FFDB58"
+        app:thumbStrokeColor="@color/black"
+        app:tickColorActive="#FFDB58"
+        app:tickColorInactive="#1D1D1D"
+        app:trackColorActive="@color/black" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="345dp"
+        android:layout_height="135dp"
+        android:background="@drawable/imageborder"
+        android:src="@drawable/mood"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.535" />
+
+    <TextView
+        android:id="@+id/editText2"
+        android:layout_width="333dp"
+        android:layout_height="113dp"
+        android:background="@drawable/background_textedit"
+        android:ems="10"
+        android:lineSpacingExtra="10dp"
+
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:text="How are you feeling today ? \n to choose your mood use the scale below."
+        android:textAlignment="center"
+
+
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.27" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="346dp"
+        android:layout_height="47dp"
+        android:backgroundTint="#ffd025"
+        android:text="Sumbit Mood"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.852" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="388dp"
+        android:layout_height="71dp"
+        android:background="#2C5DB3"
+        android:paddingBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+
+
+
+        app:navigationIcon="@drawable/baseline_arrow_back_ios_24"
+
+        app:title="Mood Tracker">
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
